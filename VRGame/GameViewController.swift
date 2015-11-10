@@ -12,6 +12,19 @@ import SceneKit
 import SpriteKit
 import CoreMotion
 
+enum ColliderType: Int {
+    case Ground = 1024
+    case Bullet = 4
+    case Player = 8
+    case Enemy = 16
+    case LeftWall = 32
+    case RightWall = 64
+    case BackWall = 128
+    case FrontWall = 256
+    case Door = 512
+    
+}
+
 func degreesToRadians(degrees: Float) -> Float {
     return (degrees * Float(M_PI)) / 180.0
 }
@@ -32,6 +45,8 @@ class GameViewController: UIViewController, SCNSceneRendererDelegate {
     var scene : SCNScene?
     var overlay: SKScene?
     var myLabel: SKLabelNode?
+    
+    var player:PlayerCharacter!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -107,6 +122,7 @@ class GameViewController: UIViewController, SCNSceneRendererDelegate {
         scene?.rootNode.addChildNode(ambientLightNode)
         
         self.addFloorAndWalls()
+        self.addPlayer()
         
         // retrieve the ship node
         let ship = scene?.rootNode.childNodeWithName("ship", recursively: true)!
@@ -140,6 +156,26 @@ class GameViewController: UIViewController, SCNSceneRendererDelegate {
 
      }
     
+    func addPlayer() {
+        let skinnedModelName = "art.scnassets/explorer/explorer_skinned.dae"
+            
+        let modelScene = SCNScene(named:skinnedModelName)
+            
+        let rootNode = modelScene!.rootNode
+            
+        rootNode.enumerateChildNodesUsingBlock({
+            child, stop in
+            // do something with node or stop
+            if(child.name == "group") {
+                self.player = PlayerCharacter(characterNode:child, id:"Player")
+                self.player.scale = SCNVector3Make(self.player.getObjectScale(), self.player.getObjectScale(), self.player.getObjectScale())
+                self.player.position = SCNVector3Make(-20, 0, -50)
+                    
+                self.scene!.rootNode.addChildNode(self.player)
+            }
+        })
+
+    }
 
     func addFloorAndWalls() {
         //add floor
