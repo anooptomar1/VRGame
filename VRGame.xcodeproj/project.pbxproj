@@ -1,0 +1,297 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C1D2BD431BF0F537005687BA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1D2BD421BF0F537005687BA /* AppDelegate.swift */; };
+		C1D2BD451BF0F537005687BA /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = C1D2BD441BF0F537005687BA /* art.scnassets */; };
+		C1D2BD471BF0F537005687BA /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1D2BD461BF0F537005687BA /* GameViewController.swift */; };
+		C1D2BD4A1BF0F537005687BA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C1D2BD481BF0F537005687BA /* Main.storyboard */; };
+		C1D2BD4C1BF0F537005687BA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C1D2BD4B1BF0F537005687BA /* Assets.xcassets */; };
+		C1D2BD4F1BF0F537005687BA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C1D2BD4D1BF0F537005687BA /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C1D2BD3F1BF0F537005687BA /* VRGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VRGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1D2BD421BF0F537005687BA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C1D2BD441BF0F537005687BA /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
+		C1D2BD461BF0F537005687BA /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		C1D2BD491BF0F537005687BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C1D2BD4B1BF0F537005687BA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C1D2BD4E1BF0F537005687BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C1D2BD501BF0F537005687BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C1D2BD3C1BF0F537005687BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C1D2BD361BF0F537005687BA = {
+			isa = PBXGroup;
+			children = (
+				C1D2BD411BF0F537005687BA /* VRGame */,
+				C1D2BD401BF0F537005687BA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C1D2BD401BF0F537005687BA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C1D2BD3F1BF0F537005687BA /* VRGame.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C1D2BD411BF0F537005687BA /* VRGame */ = {
+			isa = PBXGroup;
+			children = (
+				C1D2BD421BF0F537005687BA /* AppDelegate.swift */,
+				C1D2BD441BF0F537005687BA /* art.scnassets */,
+				C1D2BD461BF0F537005687BA /* GameViewController.swift */,
+				C1D2BD481BF0F537005687BA /* Main.storyboard */,
+				C1D2BD4B1BF0F537005687BA /* Assets.xcassets */,
+				C1D2BD4D1BF0F537005687BA /* LaunchScreen.storyboard */,
+				C1D2BD501BF0F537005687BA /* Info.plist */,
+			);
+			path = VRGame;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C1D2BD3E1BF0F537005687BA /* VRGame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C1D2BD531BF0F537005687BA /* Build configuration list for PBXNativeTarget "VRGame" */;
+			buildPhases = (
+				C1D2BD3B1BF0F537005687BA /* Sources */,
+				C1D2BD3C1BF0F537005687BA /* Frameworks */,
+				C1D2BD3D1BF0F537005687BA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VRGame;
+			productName = VRGame;
+			productReference = C1D2BD3F1BF0F537005687BA /* VRGame.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C1D2BD371BF0F537005687BA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Vivek Nagar";
+				TargetAttributes = {
+					C1D2BD3E1BF0F537005687BA = {
+						CreatedOnToolsVersion = 7.1;
+					};
+				};
+			};
+			buildConfigurationList = C1D2BD3A1BF0F537005687BA /* Build configuration list for PBXProject "VRGame" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C1D2BD361BF0F537005687BA;
+			productRefGroup = C1D2BD401BF0F537005687BA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C1D2BD3E1BF0F537005687BA /* VRGame */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C1D2BD3D1BF0F537005687BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1D2BD451BF0F537005687BA /* art.scnassets in Resources */,
+				C1D2BD4F1BF0F537005687BA /* LaunchScreen.storyboard in Resources */,
+				C1D2BD4C1BF0F537005687BA /* Assets.xcassets in Resources */,
+				C1D2BD4A1BF0F537005687BA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C1D2BD3B1BF0F537005687BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1D2BD471BF0F537005687BA /* GameViewController.swift in Sources */,
+				C1D2BD431BF0F537005687BA /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C1D2BD481BF0F537005687BA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C1D2BD491BF0F537005687BA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C1D2BD4D1BF0F537005687BA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C1D2BD4E1BF0F537005687BA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C1D2BD511BF0F537005687BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C1D2BD521BF0F537005687BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C1D2BD541BF0F537005687BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = VRGame/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vivek.VRGame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C1D2BD551BF0F537005687BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = VRGame/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vivek.VRGame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C1D2BD3A1BF0F537005687BA /* Build configuration list for PBXProject "VRGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1D2BD511BF0F537005687BA /* Debug */,
+				C1D2BD521BF0F537005687BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C1D2BD531BF0F537005687BA /* Build configuration list for PBXNativeTarget "VRGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1D2BD541BF0F537005687BA /* Debug */,
+				C1D2BD551BF0F537005687BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C1D2BD371BF0F537005687BA /* Project object */;
+}
